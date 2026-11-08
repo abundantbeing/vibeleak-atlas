@@ -10,7 +10,7 @@ VibeLeak Atlas brings authorized website assessments and read-only local code in
 
 [VibeLeak](https://vibeleak.app) · [Walkthrough](#see-it-in-use) · [Installation](#installation) · [Privacy](#privacy-and-data-handling) · [Support](#support)
 
-> **Preview 0.2.1.** Not yet listed in the Hermes plugin catalog. Website assessments require a scoped VibeLeak owner API key, which is listed under the Pro plan. Local folder inspection does not require a VibeLeak account.
+> **Preview 0.2.1.** Available in the Hermes plugin catalog. Website assessments require a scoped VibeLeak owner API key, which is listed under the Pro plan. Local folder inspection does not require a VibeLeak account.
 
 ## See it in use
 
@@ -107,9 +107,7 @@ Reloading JavaScript does not prove that a running Python backend changed. If At
 
 ### Catalog availability
 
-Using the native plugin SDK does not make Atlas bundled or catalog-listed. A listing requires a public repository, an exact reviewed commit, passing plugin validation, and a maintainer-merged submission. Making a repository public does not add it automatically.
-
-Until Atlas is listed, do not use `hermes plugins install vibeleak-atlas` as a catalog installation command. Read the official [catalog submission guide](https://hermes-agent.nousresearch.com/docs/developer-guide/plugins/catalog-submission).
+VibeLeak Atlas is listed in the [Hermes plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/vibeleak-atlas.yaml). The catalog pins the reviewed version to a specific commit.
 
 ## First use
 
